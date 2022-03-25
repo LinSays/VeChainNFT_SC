@@ -1,0 +1,22 @@
+{
+  "name": "Exoworld",
+  "version": "1.0.0",
+  "description": "NFT for Planet",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "npx truffle test",
+    "develop": "nodemon -e js,sol --exec npx truffle test"
+  },
+  "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.15",
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.5.0",
+    "@openzeppelin/contracts-upgradeable": "^4.5.1",
+    "@openzeppelin/truffle-upgrades": "^1.12.0",
+    "chai": "^4.3.6",
+    "npx": "^10.2.2"
+  }
+}
